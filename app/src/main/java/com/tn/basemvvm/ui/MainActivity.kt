@@ -43,6 +43,10 @@ class MainActivity : AppCompatActivity() {
         val f = 6
 
         val k = 10
+
+        val g = 8
+
+        val h = 9
     }
 
     private fun setupUI() {
@@ -58,6 +62,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupObserver() {
+        Log.d("123123", "onCreate: 12313123")
         mainViewModel.users.observe(this, Observer {
             when (it.status) {
                 Status.SUCCESS -> {
