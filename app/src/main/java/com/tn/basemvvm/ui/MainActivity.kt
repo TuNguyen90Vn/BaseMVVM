@@ -29,12 +29,11 @@ class MainActivity : AppCompatActivity() {
 
         setupUI()
         setupObserver()
-        Log.d("123123", "onCreate: 12313123")
+
+        val b = 2
     }
 
     private fun setupUI() {
-        Log.d("123123", "onCreate: 12313123")
-        Log.d("123123", "onCreate: 12313123")
         recyclerView.layoutManager = LinearLayoutManager(this)
         adapter = MainAdapter(arrayListOf())
         recyclerView.addItemDecoration(
