@@ -2,6 +2,7 @@ package com.tn.basemvvm.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.activity.viewModels
@@ -31,6 +32,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupUI() {
+        Log.d("Hello", "setupUI: 123")
         recyclerView.layoutManager = LinearLayoutManager(this)
         adapter = MainAdapter(arrayListOf())
         recyclerView.addItemDecoration(
