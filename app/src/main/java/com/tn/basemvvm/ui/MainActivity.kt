@@ -35,7 +35,6 @@ class MainActivity : AppCompatActivity() {
     private fun setupUI() {
         Log.d("123123", "onCreate: 12313123")
         Log.d("123123", "onCreate: 12313123")
-        Log.d("123123", "onCreate: 12313123")
         recyclerView.layoutManager = LinearLayoutManager(this)
         adapter = MainAdapter(arrayListOf())
         recyclerView.addItemDecoration(
@@ -48,6 +47,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupObserver() {
+        Log.d("123123", "onCreate: 12313123")
         mainViewModel.users.observe(this, Observer {
             when (it.status) {
                 Status.SUCCESS -> {
