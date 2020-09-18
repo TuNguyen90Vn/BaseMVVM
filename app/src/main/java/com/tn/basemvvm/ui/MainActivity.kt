@@ -39,6 +39,8 @@ class MainActivity : AppCompatActivity() {
         val d = 4
 
         val e = 5
+
+        val f = 6
     }
 
     private fun setupUI() {
