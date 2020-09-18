@@ -29,9 +29,13 @@ class MainActivity : AppCompatActivity() {
 
         setupUI()
         setupObserver()
+        Log.d("123123", "onCreate: 12313123")
     }
 
     private fun setupUI() {
+        Log.d("123123", "onCreate: 12313123")
+        Log.d("123123", "onCreate: 12313123")
+        Log.d("123123", "onCreate: 12313123")
         Log.d("Hello", "setupUI: 123")
         recyclerView.layoutManager = LinearLayoutManager(this)
         adapter = MainAdapter(arrayListOf())
