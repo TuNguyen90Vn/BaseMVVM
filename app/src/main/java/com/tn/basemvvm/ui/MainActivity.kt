@@ -37,6 +37,8 @@ class MainActivity : AppCompatActivity() {
         val g = 8
 
         val h = 9
+
+        val i = 7
     }
 
     private fun setupUI() {
