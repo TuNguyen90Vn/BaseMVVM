@@ -2,6 +2,7 @@ package com.tn.basemvvm.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.activity.viewModels
@@ -28,9 +29,13 @@ class MainActivity : AppCompatActivity() {
 
         setupUI()
         setupObserver()
+        Log.d("123123", "onCreate: 12313123")
     }
 
     private fun setupUI() {
+        Log.d("123123", "onCreate: 12313123")
+        Log.d("123123", "onCreate: 12313123")
+        Log.d("123123", "onCreate: 12313123")
         recyclerView.layoutManager = LinearLayoutManager(this)
         adapter = MainAdapter(arrayListOf())
         recyclerView.addItemDecoration(
