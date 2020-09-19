@@ -29,40 +29,6 @@ class MainActivity : AppCompatActivity() {
 
         setupUI()
         setupObserver()
-
-        val a = 1
-
-        val b = 2
-
-        val c = 3
-
-        val d = 4
-
-        val e = 5
-
-        val f = 6
-
-        val k = 10
-
-        val g = 8
-
-        val h = 9
-
-        val i = 7
-
-        val j = 11
-
-        val n = 14
-
-        val m = 13
-
-        val t = 17
-
-        val p = 15
-
-        val q = 16
-
-        val s = 19
     }
 
     private fun setupUI() {
@@ -78,7 +44,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupObserver() {
-        Log.d("123123", "onCreate: 12313123")
         mainViewModel.users.observe(this, Observer {
             when (it.status) {
                 Status.SUCCESS -> {
