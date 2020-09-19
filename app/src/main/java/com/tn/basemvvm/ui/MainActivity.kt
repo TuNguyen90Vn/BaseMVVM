@@ -30,9 +30,19 @@ class MainActivity : AppCompatActivity() {
         setupUI()
         setupObserver()
 
+        val a = 1
+
         val b = 2
 
+        val c = 3
+
         val d = 4
+
+        val e = 5
+
+        val f = 6
+
+        val k = 10
 
         val g = 8
 
@@ -40,9 +50,17 @@ class MainActivity : AppCompatActivity() {
 
         val i = 7
 
+        val j = 11
+
+        val n = 14
+
         val m = 13
 
         val t = 17
+
+        val p = 15
+
+        val q = 16
 
         val s = 19
     }
